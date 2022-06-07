@@ -4,17 +4,19 @@
   "private": true,
   "engines": {
     "node": ">=16.0.0",
-    "yarn":">=1.22.0",
-    "npm": "use yarn"    
+    "yarn": ">=1.22.0",
+    "npm": "use yarn"
   },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "prettier": "prettier --write ."
   },
   "dependencies": {
     "next": "12.1.6",
+    "prettier": "^2.6.2",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
